@@ -1,24 +1,25 @@
-*
-{
+*{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 body{
     background-image: url("download\ \(5\).jfif");
    background-size: cover;
   background-position: center;
-  box-sizing: border-box;
- font-family: sans-serif;
+ font-family:  sans-serif;
 
+}
+a :hover{
+    color: black;
 }
 
 .menubar 
 {
     background-color: whitesmoke;
     text-align: center;
-    text-decoration: none;
+  
 }
-
 .menubar ul{
     display: inline-flex;
     list-style: none;
@@ -29,6 +30,16 @@ body{
     margin: 15px;
     padding: 15px;
 }
+
+.header-icon{
+
+}
+
+
+.menubar .fa{
+    margin-right: 10px;
+}
+
 .box1{
     text-align: center;
     text-decoration: bisque;
@@ -71,8 +82,91 @@ body{
     padding: 4px 4px;
     font-size: 15px;
 }
+
+.jumia-bottomsection{
+    display: flex;
+    flex-direction: row;
+    text-decoration: navy;
+
+}
+.jumia-sidebar{
+    border: orange;
+    position: fixed;
+    margin-top: 60px;
+    left: 0;
+    flex-direction: column;
+    background-color:whitesmoke;
+    width: 250px;
+    height: 100vh;
+    text-decoration: navy;
+}
+.jumia-sidebarfield{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    background-color:whitesmoke;
+    width: 100%;
+    margin: 5px;
+    cursor: point;
+    text-decoration: navy;
+}
+
+
 .box2{
     text-align: center;
    
 }
+.menubar ul li a {
+    text-decoration: none;
+    color: orange;
+}
+
+.active, .menubar ul li:hover{
+ background-color: black;
+ border-radius: 3px;
+
+
+ }
+
+ .sub-menu {
+     display: none;
+ }
+
+ .menubar ul li:hover .sub-menu{
+    display: block;
+     position: absolute;
+     background-color: black;
+     margin-top: 15px;
+     margin-left: -15px;
+
+ }
+ .menubar ul li:hover .sub-menu .ul{
+     display: block;
+     margin: 10px;
+ }
+ .menubar ul li:hover .sub-menu .ul .li{
+     width: 150px;
+     padding: 10px;
+     border-bottom: 1px dotted white;
+     background: transparent;
+     border-radius: 0;
+     text-align: left;
+ }
+ .hamza{
+    text-align: center;
+ }
+.box3{
+    font-size: 15px;
+    text-align: center;
+    text-decoration: whitesmoke;
+    padding: 13px ;
+}
+
+
+ 
+
+
+  
+ 
+
 
